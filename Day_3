@@ -1,0 +1,28 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+System.out.println("enter number of test cases ");
+
+		int a = sc.nextInt();
+		for(int i=0;i<a;i++){
+System.out.println("enter value of X ");
+		    int x = sc.nextInt();
+System.out.println("enter value of Y");
+		    int y = sc.nextInt();
+System.out.println("value of Z is");
+		    int z = y-x;
+		    if(y>x){
+		        System.out.println(x+z*2);
+		    }
+		    else{
+		        System.out.println(y);
+		    }
+		}
+	}
+}
